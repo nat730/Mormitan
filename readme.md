@@ -11,7 +11,7 @@ le code dontuse est le code fourni par moi, le main.ts est un code en collaborat
 - [Fonctionnalités](#fonctionnalités)
 - [Installation](#installation)
 - [Utilisation](#utilisation)
-
+  
 ## Fonctionnalités
 
 - Ajout de nouvelles recettes avec les détails suivants :
@@ -27,7 +27,7 @@ le code dontuse est le code fourni par moi, le main.ts est un code en collaborat
 
 1. Clonez ce dépôt :
 
-git clone https://github.com/votre-utilisateur/votre-projet.git
+git clone https://github.com/nat730/mormitan
 
 2. Accédez au répertoire du projet :
 
