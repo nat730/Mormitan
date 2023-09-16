@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mormitan</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <h1>Mormitan</h1>
+
+    <div class="form" id="recipeForm">
+        <div class="form_object">
+            <h4>nom</h4>
+            <input type="text" class="task-input" placeholder="Enter name..." id="name">
+        </div>
+
+        <div class="form_object">
+            <h4>lien image</h4>
+            <input type="text" class="task-input" placeholder="Enter image url..." id="image">
+        </div>
+
+        <div class="form_object">
+            <h4>durée</h4>
+            <input type="text" class="task-input" placeholder="Enter durée recette..." id="duration">
+        </div>
+
+        <div class="form_object">
+            <h4>note</h4>
+            <select name="note" class="task-input" id="note">
+                <option>quel note lui attribuez vous ?</option>
+                <option value="0">0/5</option>
+                <option value="1">1/5</option>
+                <option value="2">2/5</option>
+                <option value="3">3/5</option>
+                <option value="4">4/5</option>
+                <option value="5">5/5</option>
+            </select>
+        </div>
+
+        <span class="center">
+            <button id="addButton">Add</button>
+        </span>
+    </div>
+
+    <div class="recipes_List" id="recipes_List">
+        <h2>Mes recettes</h2>
+    </div>
+
+    <script src="src/main.ts"></script>
+</body>
+</html>

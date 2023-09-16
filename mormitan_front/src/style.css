@@ -1,0 +1,106 @@
+h1 {
+  text-align: center;
+}
+
+h4 {
+  font-weight: normal;
+}
+
+.task-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.add-button {
+  width: 100%;
+  padding: 10px;
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-button:hover {
+  background-color: .0056b3;
+}
+
+.recipes_List {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-left: 0;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.recipe {
+  max-width: 600px;
+  margin-top: 5%;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.recipe_title {
+  width: 60%;
+  align-items: start;
+}
+
+.recipe_image {
+  width: 40%;
+  align-items: end;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.info {
+  font-size: 10px;
+  margin-bottom: 10%;
+
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.form_object{
+  width: 48%;
+
+}
+
+.center{
+  align-items: center;
+  justify-content: center;
+
+}
+
+span{
+  display: flex;
+  width: 100%;
+  padding: 5%;
+  padding-bottom: 0%;
+}
